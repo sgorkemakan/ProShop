@@ -45,7 +45,7 @@ const Header = () => {
               <SearchBox />
               <LinkContainer to="/cart">
                 <Nav.Link>
-                  <FaShoppingCart />
+                  <FaShoppingCart style={{ marginRight: "4px" }} />
                   Cart
                   {cartItems.length > 0 && (
                     <Badge pill bg="success" style={{ marginLeft: "5px" }}>
@@ -66,7 +66,7 @@ const Header = () => {
               ) : (
                 <LinkContainer to="/login">
                   <Nav.Link>
-                    <FaUser />
+                    <FaUser style={{ marginRight: "4px" }} />
                     Sign In
                   </Nav.Link>
                 </LinkContainer>
