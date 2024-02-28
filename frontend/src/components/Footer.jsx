@@ -7,14 +7,44 @@ const Footer = () => {
     <footer>
       <Container>
         <Row>
-          <Col className="text-center py-3">
-              <p>
+          <Col className="d-flex flex-row pt-3 py-3">
+            <p>
               ProShop &copy; {currentYear} & Icon by
               <a
                 style={{ textDecoration: "none", color: "grey" }}
                 href="https://www.flaticon.com/authors/ayub-irawan"
               >
                 &nbsp;Ayub Irawan
+              </a>
+            </p>
+          </Col>
+          <Col className="d-flex flex-row-reverse pt-3 py-3">
+            <p>
+              <a
+                style={{ textDecoration: "none", color: "grey" }}
+                href="mailto:s.gorkemakan@gmail.com"
+                target="_blank"
+                className="hover:underline me-4 md:me-6"
+              >
+                Mail Me
+              </a>
+
+              <a
+                style={{ textDecoration: "none", color: "grey" }}
+                href="https://www.facebook.com/SahinGorkemAkan"
+                target="_blank"
+                className="hover:underline me-4 md:me-6"
+              >
+                My Facebook
+              </a>
+
+              <a
+                style={{ textDecoration: "none", color: "grey" }}
+                href="https://github.com/sgorkemakan?tab=repositories"
+                target="_blank"
+                className="hover:underline me-4 md:me-6"
+              >
+                My GitHub
               </a>
             </p>
           </Col>
