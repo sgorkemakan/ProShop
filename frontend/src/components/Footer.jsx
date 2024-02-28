@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
       <Container>
         <Row>
-          <Col className="d-flex flex-row pt-3 py-3">
+          <Col className="d-flex flex-row py-1">
             <p>
               ProShop &copy; {currentYear} & Icon by
               <a
@@ -18,7 +18,7 @@ const Footer = () => {
               </a>
             </p>
           </Col>
-          <Col className="d-flex flex-row-reverse pt-3 py-3">
+          <Col className="d-flex flex-row-reverse py-1">
             <p>
               <a
                 style={{ textDecoration: "none", color: "grey" }}
