@@ -40,7 +40,7 @@ const Footer = () => {
 
               <a
                 style={{ textDecoration: "none", color: "grey" }}
-                href="https://github.com/sgorkemakan?tab=repositories"
+                href="https://github.com/sgorkemakan"
                 target="_blank"
                 className="hover:underline me-4 md:me-6"
               >
